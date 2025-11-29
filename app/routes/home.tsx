@@ -33,9 +33,9 @@ export default function Home(){
     {resumes.length > 0 && (
       <div className="resumes-section">
         {resumes.map((resume) =>(
-      <div>
-        <Resumecard key={resume.id} resume={resume} />
-      </div>
+      
+        <Resumecard key={resume.id}  resume={resume} />
+      
     ))}
 
 
